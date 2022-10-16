@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../goit-markup-hw-02/css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,41 +15,37 @@
   </head>
   <body>
     <header class="header">
-      <div>
-        <a class="logo-link-header" href="#"
-          ><span class="web-color">Web</span>Studio</a
-        >
-        <nav>
-          <ul>
-            <li>
-              <a class="nav-element" href="../goit-markup-hw-03/index.html"
-                >Agencja</a
-              >
-            </li>
-            <li>
-              <a class="nav-element" href="../goit-markup-hw-03/portfolio.html"
-                >Portfolio</a
-              >
-            </li>
-            <li><a class="nav-element">Kontakt</a></li>
-          </ul>
-        </nav>
+      <a class="logo-link-header" href="#"
+        ><span class="web-color">Web</span>Studio</a
+      >
+      <nav class="navigation">
         <ul>
           <li>
-            <a class="header-contact" href="mailto:info@example.com"
-              >info@example.com</a
-            >
+            <a class="nav-element" href="index.html">Agencja</a>
           </li>
-          <li><p class="header-contact">+48 111 111 111</p></li>
+          <li>
+            <a class="nav-element" href="portfolio.html">Portfolio</a>
+          </li>
+          <li><a class="nav-element">Kontakt</a></li>
         </ul>
-      </div>
+      </nav>
+      <ul class="header-contact-wrapper">
+        <li>
+          <a
+            class="header-contact header-contact-email"
+            href="mailto:info@example.com"
+            >info@example.com</a
+          >
+        </li>
+        <li><p class="header-contact">+48 111 111 111</p></li>
+      </ul>
     </header>
     <main>
       <section class="banner">
         <h1 class="banner-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button class="banner-button" type="button">Zamów usługe</button>
       </section>
-      <section class="description">
+      <section class="description section">
         <ul>
           <li>
             <h4>LOREM IPSUM</h4>
@@ -80,12 +76,12 @@
             </p>
           </li>
         </ul>
-        <div class="description-title">
+        <div class="description-title section">
           <h2>Czym się zajmujemy</h2>
           <ul>
             <li class="description-image">
               <img
-                src="../goit-markup-hw-03/images/close-up-image-programer-working-his-desk-office_1098-18707.jpg"
+                src="images/close-up-image-programer-working-his-desk-office_1098-18707.jpg"
                 alt="close up image programer working his desk office"
                 width="370"
                 height="294"
@@ -93,7 +89,7 @@
             </li>
             <li class="description-image">
               <img
-                src="../goit-markup-hw-03/images/web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg"
+                src="images/web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg"
                 alt="web ui designers are developing application smartphones team
         creators is working interface mobile phones"
                 width="370"
@@ -102,7 +98,7 @@
             </li>
             <li class="description-image">
               <img
-                src="../goit-markup-hw-03/images/creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg"
+                src="images/creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg"
                 alt="creative artist web design with working colour selection graphic
         tablet"
                 width="370"
@@ -112,12 +108,12 @@
           </ul>
         </div>
       </section>
-      <section class="our-team">
+      <section class="our-team section">
         <h2>Nasz zespół</h2>
         <ul>
           <li class="team-card">
             <img
-              src="../goit-markup-hw-03/images/4853.jpg"
+              src="images/4853.jpg"
               alt="Product Designer"
               width="270"
               height="260"
@@ -127,7 +123,7 @@
           </li>
           <li class="team-card">
             <img
-              src="../goit-markup-hw-03/images/5844.jpg"
+              src="images/5844.jpg"
               alt="Frontend Developer"
               width="270"
               height="260"
@@ -137,7 +133,7 @@
           </li>
           <li class="team-card">
             <img
-              src="../goit-markup-hw-03/images/16166.jpg"
+              src="images/16166.jpg"
               alt="Marketing"
               width="270"
               height="260"
@@ -147,7 +143,7 @@
           </li>
           <li class="team-card">
             <img
-              src="../goit-markup-hw-03/images/2968.jpg"
+              src="images/2968.jpg"
               alt="UI Designer"
               width="270"
               height="260"
@@ -162,7 +158,7 @@
       <a class="logo-link-footer" href="#"
         ><span class="web-color">Web</span>Studio</a
       >
-      <address>
+      <address class="footer-address-wrapper">
         <ul>
           <li>
             <p class="footer-address">m. Warszawa, Aleje Jerozolimskie 21</p>
