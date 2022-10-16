@@ -15,160 +15,165 @@
   </head>
   <body>
     <header class="header">
-      <div>
-        <a class="logo-link-header" href="#"
-          ><span class="web-color">Web</span>Studio</a
-        >
-        <nav>
-          <ul>
-            <li>
-              <a class="nav-element" href="index.html">Agencja</a>
-            </li>
-            <li>
-              <a class="nav-element" href="portfolio.html">Portfolio</a>
-            </li>
-            <li><a class="nav-element">Kontakt</a></li>
-          </ul>
-        </nav>
+      <a class="logo-link-header" href="#"
+        ><span class="web-color">Web</span>Studio</a
+      >
+      <nav class="navigation">
         <ul>
           <li>
-            <a
-              class="header-contact header-contact-email"
-              href="mailto:info@example.com"
-              >info@example.com</a
-            >
+            <a class="nav-element" href="index.html">Agencja</a>
           </li>
-          <li><p class="header-contact">+48 111 111 111</p></li>
+          <li>
+            <a class="nav-element" href="portfolio.html">Portfolio</a>
+          </li>
+          <li><a class="nav-element">Kontakt</a></li>
         </ul>
-      </div>
+      </nav>
+      <ul class="header-contact-wrapper">
+        <li>
+          <a
+            class="header-contact header-contact-email"
+            href="mailto:info@example.com"
+            >info@example.com</a
+          >
+        </li>
+        <li><p class="header-contact">+48 111 111 111</p></li>
+      </ul>
     </header>
     <main>
-      <section class="portfolio-main-page">
-        <div class="portfolio-selector-list">
-          <ul>
-            <li>
-              <button class="portfolio-selector-button" type="button">
-                Wszystkie
-              </button>
+      <div class="container section">
+        <section class="portfolio-main-page">
+          <div class="portfolio-selector-list">
+            <ul>
+              <li>
+                <button class="portfolio-selector-button" type="button">
+                  Wszystkie
+                </button>
+              </li>
+              <li>
+                <button class="portfolio-selector-button" type="button">
+                  Strony
+                </button>
+              </li>
+              <li>
+                <button class="portfolio-selector-button" type="button">
+                  Aplikacje
+                </button>
+              </li>
+              <li>
+                <button class="portfolio-selector-button" type="button">
+                  Dizajn
+                </button>
+              </li>
+              <li>
+                <button class="portfolio-selector-button" type="button">
+                  Marketing
+                </button>
+              </li>
+            </ul>
+          </div>
+          <ul class="projects">
+            <li class="project-element">
+              <img
+                src="images/technocrack.jpg"
+                alt="Technocrack website"
+                width="370"
+                height="294"
+              />
+              <p class="project-element-title">Technocrack</p>
+              <p class="project-element-type">Strona internetowa</p>
             </li>
-            <li>
-              <button class="portfolio-selector-button" type="button">
-                Strony
-              </button>
+            <li class="project-element">
+              <img
+                src="images/new_orlean_vs_golden_star.jpg"
+                alt="basketball match poster"
+                width="370"
+                height="294"
+              />
+              <p class="project-element-title">
+                Grafika New Orlean vs Golden Star
+              </p>
+              <p class="project-element-type">Dizajn</p>
             </li>
-            <li>
-              <button class="portfolio-selector-button" type="button">
-                Aplikacje
-              </button>
+            <li class="project-element">
+              <img
+                src="images/seafood.jpg"
+                alt="restaurant logo"
+                width="370"
+                height="294"
+              />
+              <p class="project-element-title">Restauracja Seafood</p>
+              <p class="project-element-type">Aplikacja</p>
             </li>
-            <li>
-              <button class="portfolio-selector-button" type="button">
-                Dizajn
-              </button>
+            <li class="project-element">
+              <img
+                src="images/headphones.jpg"
+                alt="headphones"
+                width="370"
+                height="294"
+              />
+              <p class="project-element-title">Projekt Prime</p>
+              <p class="project-element-type">Marketing</p>
             </li>
-            <li>
-              <button class="portfolio-selector-button" type="button">
-                Marketing
-              </button>
+            <li class="project-element">
+              <img
+                src="images/boxes.jpg"
+                alt="boxes"
+                width="370"
+                height="294"
+              />
+              <p class="project-element-title">Projekt Boxes</p>
+              <p class="project-element-type">Aplikacja</p>
+            </li>
+            <li class="project-element">
+              <img
+                src="images/monitor.jpg"
+                alt="Inspiration has no Borders website"
+                width="370"
+                height="294"
+              />
+              <p class="project-element-title">Inspiration has no Borders</p>
+              <p class="project-element-type">Strona internetowa</p>
+            </li>
+            <li class="project-element">
+              <img
+                src="images/magazine.jpg"
+                alt="Magazine"
+                width="370"
+                height="294"
+              />
+              <p class="project-element-title">Magazyn Limited Edition</p>
+              <p class="project-element-type">Dizajn</p>
+            </li>
+            <li class="project-element">
+              <img
+                src="images/project_lab.jpg"
+                alt="Project LAB"
+                width="370"
+                height="294"
+              />
+              <p class="project-element-title">Projekt LAB</p>
+              <p class="project-element-type">Marketing</p>
+            </li>
+            <li class="project-element">
+              <img
+                src="images/growing_business.jpg"
+                alt="Growing business application"
+                width="370"
+                height="294"
+              />
+              <p class="project-element-title">Growing Business</p>
+              <p class="project-element-type">Aplikacja</p>
             </li>
           </ul>
-        </div>
-        <ul>
-          <li class="project-element">
-            <img
-              src="images/technocrack.jpg"
-              alt="Technocrack website"
-              width="370"
-              height="294"
-            />
-            <p class="project-element-title">Technocrack</p>
-            <p class="project-element-type">Strona internetowa</p>
-          </li>
-          <li class="project-element">
-            <img
-              src="images/new_orlean_vs_golden_star.jpg"
-              alt="basketball match poster"
-              width="370"
-              height="294"
-            />
-            <p class="project-element-title">
-              Grafika New Orlean vs Golden Star
-            </p>
-            <p class="project-element-type">Dizajn</p>
-          </li>
-          <li class="project-element">
-            <img
-              src="images/seafood.jpg"
-              alt="restaurant logo"
-              width="370"
-              height="294"
-            />
-            <p class="project-element-title">Restauracja Seafood</p>
-            <p class="project-element-type">Aplikacja</p>
-          </li>
-          <li class="project-element">
-            <img
-              src="images/headphones.jpg"
-              alt="headphones"
-              width="370"
-              height="294"
-            />
-            <p class="project-element-title">Projekt Prime</p>
-            <p class="project-element-type">Marketing</p>
-          </li>
-          <li class="project-element">
-            <img src="images/boxes.jpg" alt="boxes" width="370" height="294" />
-            <p class="project-element-title">Projekt Boxes</p>
-            <p class="project-element-type">Aplikacja</p>
-          </li>
-          <li class="project-element">
-            <img
-              src="images/monitor.jpg"
-              alt="Inspiration has no Borders website"
-              width="370"
-              height="294"
-            />
-            <p class="project-element-title">Inspiration has no Borders</p>
-            <p class="project-element-type">Strona internetowa</p>
-          </li>
-          <li class="project-element">
-            <img
-              src="images/magazine.jpg"
-              alt="Magazine"
-              width="370"
-              height="294"
-            />
-            <p class="project-element-title">Magazyn Limited Edition</p>
-            <p class="project-element-type">Dizajn</p>
-          </li>
-          <li class="project-element">
-            <img
-              src="images/project_lab.jpg"
-              alt="Project LAB"
-              width="370"
-              height="294"
-            />
-            <p class="project-element-title">Projekt LAB</p>
-            <p class="project-element-type">Marketing</p>
-          </li>
-          <li class="project-element">
-            <img
-              src="images/growing_business.jpg"
-              alt="Growing business application"
-              width="370"
-              height="294"
-            />
-            <p class="project-element-title">Growing Business</p>
-            <p class="project-element-type">Aplikacja</p>
-          </li>
-        </ul>
-      </section>
+        </section>
+      </div>
     </main>
     <footer class="footer">
       <a class="logo-link-footer" href="#"
         ><span class="web-color">Web</span>Studio</a
       >
-      <address>
+      <address class="footer-address-wrapper">
         <ul>
           <li>
             <p class="footer-address">m. Warszawa, Aleje Jerozolimskie 21</p>
