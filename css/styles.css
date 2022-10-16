@@ -640,7 +640,7 @@ h4 {
   height: 404px;
   background: #ffffff;
   border-bottom: 1px solid #eeeeee;
-  flex-basis: ((100% -60px)/3);
+  flex-basis: ((100% - 60px)/3);
 }
 
 .project-element-title {
