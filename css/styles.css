@@ -326,10 +326,6 @@ h4 {
   padding-left: 50px;
 }
 
-.header-contact-email {
-  padding-left: 800px;
-}
-
 .web-color {
   color: var(--fancy-blue-color);
 }
@@ -684,4 +680,8 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.navigation li:last-child {
+  margin-right: 850px;
 }
